@@ -1,6 +1,6 @@
 # Java Industrialisation
 
-Voici un service de gestion de contact.
+Voici un service de gestion de produits.
 
 Le projet contient un test unitaire et un test d'intégration.
 
