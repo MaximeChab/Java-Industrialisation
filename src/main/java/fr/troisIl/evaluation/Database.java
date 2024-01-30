@@ -14,7 +14,7 @@ public class Database {
      * Contient le nom du fichier de la BDD sqlite
      */
     private String databasefilename;
-//
+
     /**
      * Construit l'objet de communication avec la BDD
      * @param databasefilename le fichier sqlite
