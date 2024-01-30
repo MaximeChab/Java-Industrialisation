@@ -38,16 +38,7 @@ public class Database {
             throw new RuntimeException(e);
         }
     }
-
-    private void establishConnectionsDuplicate() {
-        // create database connection
-        try {
-            connection = DriverManager.getConnection("jdbc:sqlite:" + this.databasefilename);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
+//
     /**
      * Créé les tables nécessaires au projet
      */
