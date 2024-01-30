@@ -69,7 +69,7 @@
         <sonar.organization>maximechab</sonar.organization>
         <sonar.projectKey>maximechab_java-industrialisation</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco-aggregate/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.exec</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
 
 </project>
