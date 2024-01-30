@@ -24,10 +24,22 @@ public class Database {
         this.establishConnections();
     }
 
+
+
+
     /**
      * Etabli la connexion a la BDD.
      */
     private void establishConnections() {
+        // create database connection
+        try {
+            connection = DriverManager.getConnection("jdbc:sqlite:" + this.databasefilename);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void establishConnectionsDuplicate() {
         // create database connection
         try {
             connection = DriverManager.getConnection("jdbc:sqlite:" + this.databasefilename);
