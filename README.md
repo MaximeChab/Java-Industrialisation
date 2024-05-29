@@ -16,3 +16,4 @@ Si vous partez sur Github, effectuez un fork du projet, je vous retrouverez pour
 Si vous partez sur Gitlab, envoyez moi un mail avec le lien public de votre repository
 
 Seul le dernier commit avant l'heure de fin de l'examen sera pris en compte.
+ 
